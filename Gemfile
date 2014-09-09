@@ -14,7 +14,7 @@ gem 'sqlite3','1.3.9',			 group: :development
 gem 'rspec-rails','2.13.1',		 group: :development
 gem 'sqlite3','1.3.9',			 group: :test
 gem 'rspec-rails','2.13.1',		 group: :test
-
+gem 'factory_girl_rails','4.2.0', group: :test
 gem 'selenium-webdriver','2.35.1',		 group: :test
 gem 'capybara','2.1.0',		 group: :test
 
