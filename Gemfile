@@ -17,6 +17,8 @@ gem 'rspec-rails','2.13.1',		 group: :test
 gem 'factory_girl_rails','4.2.0', group: :test
 gem 'selenium-webdriver','2.35.1',		 group: :test
 gem 'capybara','2.1.0',		 group: :test
+gem 'cucumber-rails','1.4.0', :require => false, group: :test
+gem 'database_cleaner', github: 'bmabey/database_cleaner', group: :test
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
